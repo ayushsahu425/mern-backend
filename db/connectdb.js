@@ -4,7 +4,7 @@ import bcrypt from 'bcrypt';
 
 const connectDB = async () => {
   // const DATABASE_URL = "mongodb+srv://ayushsahu425:ayushsahu425@cluster0.0c3fkpo.mongodb.net/";
-  const DATABASE_URL = "mongodb+srv://learnequityonline:equity123@leadproject.sbyzumw.mongodb.net/";
+  const DATABASE_URL = "mongodb+srv://learnequityonline:equity123@leadproject.sbyzumw.mongodb.net/?retryWrites=true&w=majority";
   const DB_NAME = "leadproject"; // replace with your actual database name
 
   try {
