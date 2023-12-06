@@ -20,8 +20,7 @@ const connectDB = async () => {
     let adminExisting = await User.find({ role: 'admin' });
 
     if (adminExisting.length <= 0) {
-      const firstName = 'admin';
-      const lastName = 'admin';
+      const Name = 'admin';
       const emailAddress = 'admin@gmail.com';
       const password = 'admin123';
 
@@ -33,8 +32,8 @@ const connectDB = async () => {
         _id: new mongoose.Types.ObjectId('64d5bd3aca0be228afc9e267'),
         emailAddress,
         password: hashedPassword,
-        firstName,
-        lastName,
+        Name,
+        
         role: 'admin'
       });
 
