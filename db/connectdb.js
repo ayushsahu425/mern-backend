@@ -3,8 +3,8 @@ import User from '../model/User';
 import bcrypt from 'bcrypt';
 
 const connectDB = async () => {
-  // const DATABASE_URL = "mongodb+srv://ayushsahu425:ayushsahu425@cluster0.0c3fkpo.mongodb.net/";
-  const DATABASE_URL = "mongodb+srv://learnequityonline:ayush123@cluster0.qyzcvpl.mongodb.net/";
+  const DATABASE_URL = "mongodb+srv://ayushsahu425:ayushsahu425@cluster0.0c3fkpo.mongodb.net/";
+  // const DATABASE_URL = "mongodb+srv://learnequityonline:ayush123@cluster0.qyzcvpl.mongodb.net/";
   const DB_NAME = "leadproject"; // replace with your actual database name
 
   try {
