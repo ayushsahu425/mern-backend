@@ -2,8 +2,8 @@ import mongoose from "mongoose";
 
 
 const LeadSchema = new mongoose.Schema({
-  clientName: { type: String, required: true },
-  phoneNumber: { type: String, required: true },
+  clientName: { type: String },
+  phoneNumber: { type: String},
   emailAddress: { type: String },
   leadStatus: { type: String, default: 'Leads cleUnder Review' },
   regDate: { type: String },
